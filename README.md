@@ -1,16 +1,16 @@
 # react-custom-captcha
 
-A powerfully and highly customizable captcha code component without a single package dependency, except React itself.
+A simple but powerfully and highly customizable captcha code component without a single package dependency, except React itself.
 
 ## Installation
 
 Via npm:
 
-    $ npm install react-zero-captcha
+    $ npm install react-custom-captcha
 
 via yarn:
 
-    $ yarn add react-zero-captcha
+    $ yarn add react-custom-captcha
 
 ## Usage
 
@@ -18,7 +18,7 @@ via yarn:
 
 ```javascript
 ...
-import { CaptchaProvider } from "react-zero-captcha";
+import { CaptchaProvider } from "react-custom-captcha";
 ...
     return(
         ...
@@ -34,7 +34,7 @@ import { CaptchaProvider } from "react-zero-captcha";
 
 ```javascript
 ...
-import { Captcha, useCaptcha } from "react-zero-captcha";
+import { Captcha, useCaptcha } from "react-custom-captcha";
 import { useState, useCallback } from "react";
 ...
 
